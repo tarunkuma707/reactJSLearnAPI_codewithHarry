@@ -6,7 +6,7 @@ import News from './components/News';
 function App() {
   return (
     <>
-    <Navbar />
+    <Navbar pageSize={5} />
     <News />
     </>
   );
