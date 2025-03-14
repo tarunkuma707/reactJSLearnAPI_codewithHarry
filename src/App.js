@@ -14,13 +14,13 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         
-        <Route exact path='/entertainment' element={<News key="entertainment" headline="entertainment" pageSize={pageSize} country="us" category="entertainment" />} />
-        <Route exact path='/business' element={<News key="business" headline="business" pageSize={pageSize} country="us" category="business" />} />
-        <Route exact path='/general' element={<News key="general" headline="general" pageSize={pageSize} country="us" category="general" />} />
-        <Route exact path='/health' element={<News key="health" headline="health"  pageSize={pageSize} country="us" category="health" />} />
-        <Route exact path='/science' element={<News key="science" headline="science"  pageSize={pageSize} country="us" category="science" />} />
-        <Route exact path='/sports' element={<News key="sports" headline="sports"  pageSize={pageSize} country="us" category="sports" />} />
-        <Route exact path='/technology' element={<News key="technology" headline="technology"  pageSize={pageSize} country="us" category="technology" />} />
+        <Route exact path='/entertainment' element={<News key="entertainment" headline="Entertainment" pageSize={pageSize} country="us" category="entertainment" />} />
+        <Route exact path='/business' element={<News key="business" headline="Business" pageSize={pageSize} country="us" category="business" />} />
+        <Route exact path='/general' element={<News key="general" headline="General" pageSize={pageSize} country="us" category="general" />} />
+        <Route exact path='/health' element={<News key="health" headline="Health"  pageSize={pageSize} country="us" category="health" />} />
+        <Route exact path='/science' element={<News key="science" headline="Science"  pageSize={pageSize} country="us" category="science" />} />
+        <Route exact path='/sports' element={<News key="sports" headline="Sports"  pageSize={pageSize} country="us" category="sports" />} />
+        <Route exact path='/technology' element={<News key="technology" headline="Technology"  pageSize={pageSize} country="us" category="technology" />} />
       </Routes>
     </>
   );
