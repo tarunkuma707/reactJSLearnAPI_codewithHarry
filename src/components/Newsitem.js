@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
+import PropTypes from 'prop-types';
 
-export default class Newsitem extends Component {
-  render() {
+const Newsitem=(props)=> {
+    let { title, description, imageUrl, newsUrl, author, date, source } = props;
     let titleSytle = {
       textOverflow: "ellipsis",
       overflow: "hidden",
@@ -16,8 +17,6 @@ export default class Newsitem extends Component {
       whiteSpace: "nowrap",
       height: "10vh",
     };
-    let { title, description, imageUrl, newsUrl, author, date, source } =
-      this.props;
     return (
       <div className="my-3">
         <div className="card">
@@ -65,5 +64,5 @@ export default class Newsitem extends Component {
         </div>
       </div>
     );
-  }
 }
+export default Newsitem

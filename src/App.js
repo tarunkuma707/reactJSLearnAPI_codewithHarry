@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar  from './components/Navbar';
 import News from './components/News';
 import About from './components/About';
 import Home from './components/Home';
@@ -13,7 +13,7 @@ function App() {
   const [progress, setProgress] = useState(10);
   return (
     <>
-      <Navbar  />
+      <Navbar />
       <LoadingBar
         height={3}
         color="#f11946"
